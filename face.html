@@ -1,0 +1,493 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        height: 80px;
+        width: 100%;
+        background-color: white;
+        /* position: fixed; */
+        position: sticky;
+        top: 0;
+
+    }
+
+    li a {
+        text-decoration: none;
+        padding: 14px 16px;
+        text-align: center;
+        font-size: x-large;
+        color:rgb(253, 251, 251);
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        height: 45px;
+        width: 100%;
+        border: none;
+        position: sticky;
+        top: 80;
+        background-color: rgb(90, 185, 81);
+
+    }
+    a.nk{
+        color: black;
+    }
+
+    li.b {
+        text-decoration: none;
+        font-size: 1px;
+        padding: 0% 0%;
+        margin-top: 10px;
+        color: white;
+    }
+
+ .option {
+        float: right;
+        margin-top: 20px;
+        
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: xx-large;
+        margin-left: 20px;
+    }
+
+    .B1 {
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        margin: 0px 10px 0px 10px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-radius: 7px;
+    }
+
+    .B2 {
+
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        margin: 0px 10px 0px 10px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-radius: 7px;
+    }
+
+    .B3 {
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        margin: 0px 10px 0px 14px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-radius: 7px;
+    }
+
+    .B4 {
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        margin: 0px 10px 0px 15px;
+        border-radius: 7px;
+    }
+    .d1{
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        margin: 0px 10px 0px 10px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-radius: 7px;
+    }
+    .d2{
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        margin: 0px 10px 0px 10px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-radius: 7px;
+    }
+    .d3{
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        margin: 0px 10px 0px 14px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-radius: 7px;
+    }
+    .d4{ 
+        display: inline-block;
+        height: 450px;
+        width: 310px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        margin: 0px 10px 0px 15px;
+        border-radius: 7px;
+
+    }
+
+    .h {
+        color: black;
+    }
+
+    .g {
+        color: green;
+        font-size: 18px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        color: white;
+        background-color: rgb(1, 160, 252);
+        height: 50px;
+        width: 310px;
+        border-radius: 7px;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: rgb(12, 240, 80);
+    }
+
+    /* .button2:hover {
+        background-color: red;
+    } */
+    .footer {
+    background-color: rgb(201, 226, 222);
+    color: rgb(14, 13, 13);
+    text-align:left;
+    padding: 20px 0;
+    bottom: 0; 
+    width: 100%;
+    height: 360px;
+    font-size: 12px;
+    padding: 4px 4px 4px 0px;
+    display: flex;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(201, 226, 222);
+}
+
+.links li {
+    display: inline-block;
+    margin: 0 15px; 
+}
+
+.links a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline; 
+}
+    p.p{
+    text-align:left;
+    font-size:x-large ;
+
+}
+div.mfoot2{
+    padding-left: 100px;
+}
+div.mfoot3{
+    padding-left: 100px;
+}
+div.mfoot4{
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width:768px) and (min-width:480px){
+    ul.first{
+        font-size:40px;
+        width: 100%;
+    }
+    ol{
+        height: 110px;
+        font-size:1px;
+
+    }
+    li.b{
+        font-size:5px;
+    }
+    a{
+        font-size: 2px;
+    }
+    
+}
+@media (max-width:1024px) and (min-width:768px){
+    ul.first{
+        font-size:40px;
+        width: 100%;
+    }
+    ol{
+        height: 100px;
+        font-size:1px;
+
+    }
+    li.b{
+        font-size:5px;
+    }
+    a{
+        font-size: 2px;
+    }
+    
+}
+
+
+</style>
+<body>
+    <ul>
+        <li><a href=""><img src="./image/mamaearth.png" height="90px" width="120px"></a></li>
+        <div class="option">
+            <li><a class="nk" href=""><img src="./image/icons8-cart-50.png" alt="" height="30px" width="30px">Cart</a></li>
+            <li><a class="nk" href="mamaearthlogin.html"><img src="./image/icons8-login-50.png" alt="" height="20px" width="20px">Login</a></li>
+        </div>
+    </ul>
+    <ol class="lips">
+        <li class="b"><a href="index.html">Home</a></li>
+        <li class="b"><a href="face.html">Face</a></li>
+        <li class="b"><a href="hair.html">Hair</a></li>
+        <li class="b"><a href="mamaearthlipstick.html">Lipstick</a></li>
+        <li class="b"><a href="body.html">Body</a></li>
+        <li class="b"><a href="combos.html">Combos</a></li>
+        <li class="b"><a href="new launch.html">New Launch</a></li>
+        <li class="b"><a href="">Ingredient</a></li>
+        <li class="b"><a href="index.html">All Product</a></li>
+        <li class="b"><a href="">Blog</a></li>
+        <li class="b"><a href="mamaearthlocation.html">Store Location</a></li>
+    </ol>
+    <center>
+        <img src="./image/face page.avif" alt="" width="100%" height="75%">
+    </center>
+    <br>
+    <h1>BEST SKIN CARE</h1>
+    <br>
+    <h2>Best Seller</h2>
+    <br>
+    <div class="B1">
+        <a href=""><img src="./image/face1.avif" height="295px" width="290px">
+            <p class="h">Charcoal Face Wash for Oil Control, 100ml</p>
+            <p class="g">Pollution Defense | Controls Excess Oil</p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+        <img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+                <p>₹269</p>
+                <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px"
+                        width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+                    CART</button>
+    </div>
+    <div class="B2">
+        <a href=""><img src="./image/face2.avif" height="300px" width="290px">
+            <p class="h">Vitamin C Daily Glow Sunscreen with Vitamin C </p>
+            <p class="g"> SPF 50 & PA++++ Protection</p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹319</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+    </div>
+    <div class="B3">
+        <a href=""><img src="./image/face3.avif" height="300px" width="290px">
+            <p class="h">Aloe Vera Gel for Skin and Hair - 300ml</p>
+            <p class="g">Hydrates Skin | Soothes Irritated Skin</p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹399</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+    </div>
+    <div class="B4">
+        <a href=""><img src="./image/face4.avif" height="300px" width="290px">
+            <p class="h">Vitamin C Daily Glow Face Serum 10ml</p>
+            <p class="g">Enriched with 50X Vitamin C* </p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹225</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+    </div>
+    <br><br>
+    <div class="d1">
+        <a href=""><img src="./image/face5.avif" height="300px" width="290px">
+            <p class="h">Tea Tree Oil-Free Face Moisturizer - 80 ml </p>
+            <p class="g"> Fights Acne Pimples | 24-Hour Hydration</p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹199</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+    </div>
+    <div class="d2">
+        <a href=""><img src="./image/face6.avif" height="295px" width="290px">
+            <p class="h">Aqua Glow Gel Face Moisturizer 100ml</p>
+            <p class="g">72-Hour Hydration | Lightweight Gel </p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+            <img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹699</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+    </div>
+    <div class="d3">
+        <a href=""><img src="./image/face7.avif" height="300px" width="290px">
+            <p class="h">Vitamin C Oil-Free Moisturizer Face with Vitamin C</p>
+            <p class="g">Non-Sticky Moisturization</p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹319</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+    </div>
+    <div class="d4">
+        <a href=""><img src="./image/face8.avif" height="300px" width="290px">
+            <p class="h">Beetroot Hydraful Moisturizer  With Beetroot</p>
+            <p class="g">Healthy Pink Glow | 48-Hour Hydration*</p>
+        </a>
+        <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img
+            src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+        <p>₹359</p>
+        <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO
+            CART</button>
+        </div><br><br><br>
+        <br>
+        <br>
+        <footer class="footer">
+         <div class="mfoot1">
+         <p class="p"><span style="padding-left: 10px;">USEFUL LINKS</span></p>
+         <br>
+         <ul class="links">
+             <li><a href="#">Privacy Policy</a></li><br><br>
+             <li><a href="#">Returns</a></li><br><br>
+             <li><a href="#">Terms of Service</a></li><br><br>
+             <li><a href="#">Terms of Condition-cashback</a></li><br><br>
+             <li><a href="#">Contact Us</a></li><br><br>
+             <li><a href="#">Sitemap</a></li><br><br>
+             <li><a href="#">Track Order</a></li><br><br>
+             <li><a href="#">About Us</a></li><br><br>
+         </ul>
+     </div>
+     <div class="mfoot2">
+         <p class="p"><span style="padding-left: 10px;">CATEGORIES</span></p>
+         <br>
+         <ul class="links">
+            <li><a href="hair.html">Hair</a></li><br><br>
+            <li><a href="body.html">Body</a></li><br><br>
+            <li><a href="face.html">Face</a></li><br><br>
+            <li><a href="mamaearthlipstick.html">Lipstick</a></li><br><br>
+            <li><a href="new launch.html">New Launch</a></li><br><br>
+            <li><a href="face.html">Skin care</a></li><br><br>
+            <li><a href="#">Ingredients</a></li><br><br>
+            <li><a href="combos.html">Combos</a></li><br><br>
+         </ul>
+     </div>
+     <div class="mfoot3">
+         <p class="p"><span style="padding-left: 10px;">MY ACCOUNT</span></p>
+         <br>
+         <ul class="links">
+             <li><a href="#">Account</a></li><br><br>
+             <li><a href="#">Orders</a></li><br><br>
+             <li><a href="#">Addresses</a></li><br><br>
+             
+         </ul>
+     </div>
+     <div class="mfoot4">
+         <center>
+         <img src="./image/facebook.svg" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+         <img src="./image/twitter.svg" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+         <img src="./image/youtube.svg" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+         <img src="./image/instagram.svg" alt="" height="25px" width="25px"></center><br><br>
+         <img src="./image/playstore image.png" alt="">
+         <img src="./image/applestore image.png" alt="">
+     </div>
+     
+     </footer>
+        </body>
+    </html>
+ 

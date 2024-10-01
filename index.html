@@ -1,0 +1,818 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+        margin: 0%;
+        padding: 0;
+        height: 80px;
+        width: 100%;
+        background-color: white;
+        /* position: fixed; */
+        position: sticky;
+        top: 0;
+    
+}
+li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: x-large;
+    color:black;
+    margin-bottom: 2px;
+}
+li{
+    display: inline-block;
+}
+ol{
+    list-style-type: none;
+     padding: 0;
+     margin: 0;
+     height: 45px;
+     width: 100%;
+     border: none;
+     position: sticky;
+     top: 80;
+    background-color:rgb(18, 206, 206);
+    
+}
+li.b{
+    text-decoration: none;
+    font-size: 1px;
+    padding: 0%  0%;
+}
+.option{
+    float: right;
+    margin-top: 12px;
+}
+    
+.A1{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.E{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.C{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 14px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+    
+}
+.D{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin:0px 10px 0px 15px;
+    border-radius: 7px;
+}
+.h{ 
+  color: black;
+ 
+
+}
+.g{
+    color: green;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color:rgb(1, 160, 252);
+    height: 50px;
+    width: 310px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+button:hover{
+      background-color: aqua;
+}
+.button2:hover{
+    background-color: red;
+}
+.F{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.F1{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.F2{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 14px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.F3{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin:0px 10px 0px 15px;
+    border-radius: 7px;
+}
+.G1{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.G2{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.G3{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 14px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.G4{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin:0px 10px 0px 15px;
+    border-radius: 7px;
+    
+}
+.J1{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.J2{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+
+}
+.J3{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 14px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.J4{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin:0px 10px 0px 15px;
+    border-radius: 7px;
+}
+.k1{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.k2{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.k3{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 14px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.k4{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin:0px 10px 0px 15px;
+    border-radius: 7px;
+}
+.l1{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.l2{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.l3{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    margin:0px 10px 0px 14px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 7px;
+}
+.l4{
+    display: inline-block;
+    height: 450px;
+    width: 310px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin:0px 10px 0px 15px;
+    border-radius: 7px;
+}
+.view{
+    display: flex;
+    margin-left: 25px;
+    font-size: x-large;
+    margin-right: 10px;
+
+}
+.button2{
+    height:45px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: inline-end;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-color: gray;
+    background-color: blue;
+}
+
+h1{
+    margin-left: 30px;
+}
+.footer {
+    background-color: rgb(201, 226, 222);
+    color: rgb(14, 13, 13);
+    text-align:left;
+    padding: 20px 0;
+    bottom: 0; 
+    width: 100%;
+    height: 360px;
+    font-size: 12px;
+    padding: 4px 4px 4px 0px;
+    display: flex;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(201, 226, 222);
+}
+
+.links li {
+    display: inline-block;
+    margin: 0 15px; 
+}
+
+.links a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline; 
+}
+p.p{
+    text-align:left;
+    font-size:x-large ;
+
+}
+div.mfoot2{
+    padding-left: 100px;
+}
+div.mfoot3{
+    padding-left: 100px;
+}
+div.mfoot4{
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width:767px) and (min-width:480px){
+    ul.first{
+        font-size:40px;
+        width: 100%;
+    }
+    ol{
+        height: 100px;
+        font-size:1px;
+
+    }
+    li.b{
+        font-size:5px;
+    }
+    a{
+        font-size: 2px;
+    }
+    
+}
+@media (max-width:1024px) and (min-width:768px){
+    ul.first{
+        font-size:40px;
+        width: 100%;
+    }
+    ol{
+        height: 100px;
+        font-size:1px;
+
+    }
+    li.b{
+        font-size:5px;
+    }
+    a{
+        font-size: 2px;
+    }
+    
+}
+
+    
+
+
+
+</style>
+<body>
+<ul class="first">
+<li><a href=""></a><img src="./image/mamaearth.png" height="90px" width="120px"></a></li>
+<div class="option">
+<li><a href=""><img src="./image/icons8-cart-50.png" height="30px" width="30px">Cart</a></li>
+<li><a href="./mamaearthlogin.html"><img src="./image/icons8-login-50.png"height="20px" width="20px">Login</a></li>
+</div>
+</ul>
+<ol>
+    <li class="b"><a href="index.html">Home</a></li>
+    <li class="b"><a href="face.html">Face</a></li>
+    <li class="b"><a href="hair.html">Hair</a></li>
+    <li class="b"><a href="mamaearthlipstick.html">Lipstick</a></li>
+    <li class="b"><a href="body.html">Body</a></li>
+    <li class="b"><a href="combos.html">Combos</a></li>
+    <li class="b"><a href="new launch.html">New Launch</a></li>
+    <li class="b"><a href="">Ingredient</a></li>
+    <li class="b"><a href="index.html">All Product</a></li>
+    <li class="b"><a href="">Blog</a></li>
+    <li class="b"><a href="mamaearthlocation.html">Store Location</a></li>
+</ol>
+
+<center>
+<img src="./image/mamaearth product.jpg_large" alt="" width="100%" height="85%">
+</center>
+<div>
+    <br>
+<a href=""><button class="button2">view All </button></a>
+<h1>Best Sellers</h1>
+</div>
+<br>
+<div class="view">  
+    <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth. Get amazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+</div>
+<br><br>
+<div class="A1">
+ <a href=""><img src="./image/mamaearth3.avif" height="300px" width="290px" >
+<p class="h">rice face wash with rice water & niacinamide for glass skin-150ml</p>
+<p class="g">removal tan | brighten skin </p></a>
+<img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+<p>₹399</p>
+<button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+</div>
+<div class="E">
+ <a href=""><img src="./image/mamaearth4.avif" alt="" height="300px" width="300px">
+<p class="h">mamaearth ubtan face wash with turmeric & saffron tan removal-150ml</p>
+<p class="g">Gently cleanses skin | hytrates skin</p></a>
+<img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+<p>₹269</p>
+<button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+</div>
+<div class="C">
+ <a href=""><img src="./image/mamaearth1.avif" alt="" height="300px" width="300px">
+<p class="h"> onion shampoo with onion & plant keratin for hair fall control-150ml</p>
+<p class="g">Reduces Hair Fall| Sofetens Hair</p></a>
+<img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+<p>₹559</p>
+<button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+</div>
+<div class="D">
+<a href=""><img src="./image/mamaearth2.avif" alt="" height="300px" width="290px">
+<p class="h">vitamin c daily glow face serum with vitamin c & turmeric for skin-150ml</p>
+<p class="g">Enriches&50X Vitamin C|Brightens Skin</p></a>
+<img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+<p>₹399</p>
+<button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+</div>
+<br><br>
+<div class="F">
+    <a href=""><img src="./image/earth1.avif" height="300px" width="290px" >
+   <p class="h">rosemary anti-hair fall shampoo with rosemary & methi dana-150ml</p>
+   <p class="g"> stronger hair| made safe certified</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <!-- <img src="image/icons8-review-30.png" height="16px" width="16px"> -->
+   <p>₹349</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="F1">
+    <a href=""><img src="./image/earth2.avif" alt="" height="300px" width="300px">
+   <p class="h">rosemary hair growth oil with rosemary & methi dana</p>
+   <p class="g">stimulate hair growth|control hair fall</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹419</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="F2">
+    <a href=""><img src="./image/earth3.avif" alt="" height="300px" width="300px">
+   <p class="h">beetroot gentle face wash with beetroot & hyaluronic acid</p>
+   <p class="g">natural pink glow|hydrate skin instantly</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+   <p>₹259</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="F3">
+   <a href=""><img src="./image/earth4.avif" alt="" height="300px" width="290px">
+   <p class="h">multani mitti face wash with multani mitti and bulgarian rose</p>
+   <p class="g">control oil & acne| promotes hydration</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px">
+   <p>₹269</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <br><br><br>
+   <a href=""><button class="button2">View All</button></a>
+   <h1>Lightning sale</h1>
+   <br>
+   <div class="view">
+    <p>Explore the goodness of nature from Mamaearth. Take a look at our lightning offers</p>
+   </div>
+   <br><br>
+   <div class="G1">
+    <a href=""><img src="./image/sale1.avif" height="300px" width="290px" >
+   <p class="h">Onion shampoo for Hair Growth & control Hair Fall</p>
+   <p class="g">Reduces Hair Fall|Smoothes Hair </p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹1299</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="G2">
+    <a href=""><img src="./image/sale2.avif" height="300px" width="290px" >
+   <p class="h">Rose Mary Anti-Hair Fall Shampoo With Rose Mary & methi Dana</p>
+   <p class="g">give stronger hair| up to 94% less hair fail</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹839</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="G3">
+    <a href=""><img src="./image/sale3.avif" height="300px" width="290px" >
+   <p class="h">Anti-Hair Fall Spa Kit</p>
+   <p class="g">boosts growth| reduces hair fall| soften hair</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹1117</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="G4">
+   <a href=""><img src="./image/sale4.avif" height="321px" width="290px" >
+   <p class="h">Uptan Face Wash 150ml(pack of 2)  </p>
+   <p class="g">removal tan | brighten skin </p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹399</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <br><br>
+   <a href=""><button class="button2">View All</button></a>
+   <h1>Skin Care</h1>
+   <div class="view">
+    <p>Explore 100% toxin-free and safe skincare products by Mamaearth that are formulated with love and the goodness of natural ingredients</p>
+   </div>
+   <br><br>
+   <div class="J1">
+    <a href=""><img src="./image/skin care1.avif" height="300px" width="290px" >
+   <p class="h">Uptan Face Wash With Turmeric & Saffron</p>
+   <p class="g">Removes Tan|Brightens Skin </p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹269</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="J2">
+    <a href=""><img src="./image/skin care2.avif" height="300px" width="290px" >
+   <p class="h">Vitamin C Face Wash With Vitamin C & Turmeric</p>
+   <p class="g">Evens skin Tone|Brightens Skin </p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹269</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="J3">
+    <a href=""><img src="./image/skin care3.avif" height="300px" width="290px" >
+   <p class="h">Rice Oil-Free Face Moisturizer with Rice Water</p>
+   <p class="g">24-Hours Hytration|Brightens Skin Tone</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹319</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <div class="J4">
+    <a href=""><img src="./image/skin care4.avif" height="300px" width="290px" >
+   <p class="h">Vitamin C Daily Glow Sunscreen with Vitamin C & Turmeric for Glow - 50 g</p>
+   <p class="g">SPF 50 & PA++++ | Adds Natural Glow</p></a>
+   <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+   <p>₹349</p>
+   <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+   </div>
+   <br><br><br><br>
+   <section id="hair">
+   <a href=""><button class="button2">View All</button></a>
+   <h1>Hair Care</h1>
+    <p class="view">Explore 100% toxin-free and safe Hair products, formulated with the goodness of natural ingredients and no harmful chemicals.</p>
+    <div class="k1">
+        <a href=""><img src="./image/hair1.avif" height="300px" width="290px" >
+       <p class="h">Rosemary Hair Growth Oil for Hair Growth </p>
+       <p class="g">Stimulates Hair Growth|Controls Hair Fall </p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹419</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+       <div class="k2">
+        <a href=""><img src="./image/hair2.avif" height="300px" width="290px" >
+       <p class="h">Onion Hair Oil with Onion Oil & Redensyl for Hair Fall Control</p>
+       <p class="g">Boosts Hair Growth | Adds Strength Shine</p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹599</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+       <div class="k3">
+        <a href=""><img src="./image/hair3.avif" height="300px" width="290px" >
+       <p class="h">Onion Shampoo with Onion and Plant Keratin</p>
+       <p class="g">Reduces Hair Fall | Strengthens Hair</p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹349</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+       <div class="k4">
+        <a href=""><img src="./image/hair4.avif" height="300px" width="290px" >
+       <p class="h">Rosemary Hair Growth Oil  Promoting Hair Growth - 200 ml</p>
+       <p class="g">Controls Hair Fall | Strengthens Hair</p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹499</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+    </section>
+       <br><br>
+       <a href=""><button class="button2">View All</button></a>
+       <h1>Fragrances</h1>
+       <div class="view">
+        <p> Mamaearth Perfume range is the India's 1st Made Safe Certified perfume and is inspired by both nature and you.</p>
+       </div>
+       <br><br>
+       <div class="l1">
+        <a href=""><img src="./image/fragrance1.avif" height="300px" width="290px" >
+       <p class="h">Mamaearth Into the Woods Eau De Parfum For Men-100ml</p>
+       <p class="g"> Made Safe Approved|Exotic Ingredients</p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹539</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+        <div class="l2">
+        <a href=""><img src="./image/fragrance2.avif" height="300px" width="290px" >
+       <p class="h">Mamaearth Into the Valley Eau De Parfum For Women-100 ml</p>
+       <p class="g">Made Safe Approved|Exotic Ingredients</p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹539</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+       <div class="l3">
+        <a href=""><img src="./image/fragrance3.avif" height="300px" width="290px" >
+       <p class="h">Mamaearth Perfume Gift Set for Men- Set of 2</p>
+       <p class="g">Made Safe Approved|Travel-Friendly Pack </p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹359</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+       <div class="l4">
+       <a href=""><img src="./image/fragrance4.avif" height="300px" width="290px" >
+       <p class="h">Mamaearth Perfume Gift Set for Women - Set of 2</p>
+       <p class="g">Made Safe Approved|Travel-Friendly Pack </p></a>
+       <img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-christmas-star-50.png" height="15px" width="15px"><img src="./image/icons8-star-half-empty-50.png" height="15px" width="15px">
+       <p>₹419</p>
+       <button><img src="./image/icons8-add-to-cart-50.png" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;ADD TO CART</button>
+       </div>
+       <br><br><br>
+       <br>
+       <br>
+       <footer class="footer">
+        <div class="mfoot1">
+        <p class="p"><span style="padding-left: 10px;">USEFUL LINKS</span></p>
+        <br>
+        <ul class="links">
+            <li><a href="#">Privacy Policy</a></li><br><br>
+            <li><a href="#">Returns</a></li><br><br>
+            <li><a href="#">Terms of Service</a></li><br><br>
+            <li><a href="#">Terms of Condition-cashback</a></li><br><br>
+            <li><a href="#">Contact Us</a></li><br><br>
+            <li><a href="#">Sitemap</a></li><br><br>
+            <li><a href="#">Track Order</a></li><br><br>
+            <li><a href="#">About Us</a></li><br><br>
+        </ul>
+    </div>
+    <div class="mfoot2">
+        <p class="p"><span style="padding-left: 10px;">CATEGORIES</span></p>
+        <br>
+        <ul class="links">
+            <li><a href="hair.html">Hair</a></li><br><br>
+            <li><a href="body.html">Body</a></li><br><br>
+            <li><a href="face.html">Face</a></li><br><br>
+            <li><a href="mamaearthlipstick.html">Lipstick</a></li><br><br>
+            <li><a href="new launch.html">New Launch</a></li><br><br>
+            <li><a href="face.html">Skin care</a></li><br><br>
+            <li><a href="#">Ingredients</a></li><br><br>
+            <li><a href="combos.html">Combos</a></li><br><br>
+        </ul>
+    </div>
+    <div class="mfoot3">
+        <p class="p"><span style="padding-left: 10px;">MY ACCOUNT</span></p>
+        <br>
+        <ul class="links">
+            <li><a href="#">Account</a></li><br><br>
+            <li><a href="#">Orders</a></li><br><br>
+            <li><a href="#">Addresses</a></li><br><br>
+            
+        </ul>
+    </div>
+    <div class="mfoot4">
+        <center>
+        <img src="./image/facebook.svg" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./image/twitter.svg" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./image/youtube.svg" alt="" height="25px" width="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./image/instagram.svg" alt="" height="25px" width="25px"></center><br><br>
+        <img src="./image/playstore image.png" alt="">
+        <img src="./image/applestore image.png" alt="">
+    </div>
+    
+    </footer>
+       </body>
+   </html>
